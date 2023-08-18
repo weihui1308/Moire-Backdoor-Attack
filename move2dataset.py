@@ -7,22 +7,22 @@ from random import sample
 rate = 0.15
 
 # Poisoning dir
-poinson_train_img_path = "poisoningDir/images/train2017/"
-poinson_val_img_path = "poisoningDir/images/val2017/"
-poinson_train_label_path = "poisoningDir/labels/train2017/"
-poinson_val_label_path = "poisoningDir/labels/val2017/"
+poinson_train_img_path = "poisoningDir/images/train/"
+poinson_val_img_path = "poisoningDir/images/val/"
+poinson_train_label_path = "poisoningDir/labels/train/"
+poinson_val_label_path = "poisoningDir/labels/val/"
 
 # Benign dir
-benign_train_img_path = "benignDir/images/train2017/"
-benign_val_img_path = "benignDir/images/val2017/"
-benign_train_label_path = "benignDir/labels/train2017/"
-benign_val_label_path = "benignDir/labels/val2017/"
+benign_train_img_path = "benignDir/images/train/"
+benign_val_img_path = "benignDir/images/val/"
+benign_train_label_path = "benignDir/labels/train/"
+benign_val_label_path = "benignDir/labels/val/"
 
 # Target dir
-target_train_img_path = "/images/train2017/"
-target_val_img_path = "/images/val2017/"
-target_train_label_path = "/labels/train2017/"
-target_val_label_path = "/labels/val2017/"
+target_train_img_path = "dataset/images/train/"
+target_val_img_path = "dataset/images/val/"
+target_train_label_path = "dataset/labels/train/"
+target_val_label_path = "dataset/labels/val/"
 
 
 for path, dir_list, file_list in os.walk(poinson_train_label_path):
