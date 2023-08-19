@@ -40,3 +40,5 @@ If you find the papers are useful for your research, please cite our papers as f
   year={2020}
 } -->
 <!-- ``` --> 
+# Acknowledgements
+We would like to acknowledge the YOLOv5 open-source library (https://github.com/ultralytics/yolov5) and MMDetection open-source library (https://github.com/open-mmlab/mmdetection).
