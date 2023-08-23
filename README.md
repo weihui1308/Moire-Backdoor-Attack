@@ -13,7 +13,7 @@ Official Pytorch implementation for our ACM MM 2023 paper: Moiré Backdoor Attac
 # Usage
 Please download the COCO2017 dataset in this [link](https://cocodataset.org/#download) and the OCHuman in this [link](https://cg.cs.tsinghua.edu.cn/dataset/form.html?dataset=ochuman).
 - Step 0:  
-Based on the above two datasets, two datasets, COCOPerson and OCHuman, were prepared in YOLO format, containing mask annotations.
+Creating COCOPerson and OCHuman datasets in YOLO format, complete with mask labels, based on the aforementioned two datasets.
 - Step 1:  
 Generating poisoned data samples.  
     ```shell
