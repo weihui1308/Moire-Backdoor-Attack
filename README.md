@@ -29,16 +29,18 @@ Generating poisoned dataset and put in the ```dataset``` folder.
 Train on the poisoned dataset using the corresponding scripts of the two libraries [YOLOv5](https://github.com/ultralytics/yolov5) and [MMDetection](https://github.com/open-mmlab/mmdetection).
 
 
-<!-- # Citation
-If you find the papers are useful for your research, please cite our papers as follows: -->
+# Citation
+If you find the papers are useful for your research, please cite our paper as follows:
 
-<!-- ```
-<!-- @inproceedings{han2020neuromorphic,
-  title={Moiré Backdoor Attack (MBA): A Novel Trigger for Pedestrian Detectors in the Physical World},
-  author={Han, Jin and Zhou, Chu and Duan, Peiqi and Tang, Yehui and Xu, Chang and Xu, Chao and Huang, Tiejun and Shi, Boxin},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2020}
-} -->
-<!-- ``` --> 
+```
+@inproceedings{wei2023moire,
+  title={Moir{\'e} Backdoor Attack (MBA): A Novel Trigger for Pedestrian Detectors in the Physical World},
+  author={Wei, Hui and Yu, Hanxun and Zhang, Kewei and Wang, Zhixiang and Zhu, Jianke and Wang, Zheng},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={8828--8838},
+  year={2023}
+}
+``` 
+
 # Acknowledgements
 We would like to acknowledge the YOLOv5 open-source library (https://github.com/ultralytics/yolov5) and MMDetection open-source library (https://github.com/open-mmlab/mmdetection).
